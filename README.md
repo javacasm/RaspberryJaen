@@ -1,4 +1,4 @@
-# Raspberry Pi: Introducción al uso y programación
+# [Raspberry Pi: Introducción al uso y programación](http://www.juntadeandalucia.es/educacion/portals/web/cep-jaen/index.php/es-ES/formacion/convocatorias/771-abierto-plazo-de-inscripcion-a-la-actividad-raspberry-pi-introduccion-al-uso-y-programacion-162319ge102)
 
 ## CEP de Jaen
 
@@ -11,7 +11,7 @@
 
 ![raspberry](./images/logoRasp.png)
 
-## [Indice](./contenidos/indice.md)
+## [Indice](./indice.md)
 
 ## [¿Qué necesito?](./materiales.md)
 

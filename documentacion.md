@@ -10,6 +10,8 @@
 ### [https://github.com/javacasm/RaspberryJaen](https://github.com/javacasm/RaspberryJaen)
 
 [Revista The MagPy](www.themagpi.com)
+( [Libro de proyectos](https://www.raspberrypi.org/magpi/raspberry-pi-projects-book-2/) [todos](https://www.raspberrypi.org/magpi/issues/))
+
 
 Libros:  
 * Programing the Raspberry Pi, Simon Monk

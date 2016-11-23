@@ -1,8 +1,8 @@
 # Raspberry Pi: Introducción al uso y programación ([162319GE102](https://www.juntadeandalucia.es/educacion/seneca/seneca/jsp/gestionactividades/DetActForPub.jsp?X_EDIACTFOR=161807))
 
-## CEP de Linares-Andújar
+## CEP Jaén
 
-11, 12 y 17 de Mayo de 2016
+23, 29 y 30 de Noviembre de 2016
 
 ![CC](./images/Licencia_CC.png)
 ## José Antonio Vacas  @javacasm

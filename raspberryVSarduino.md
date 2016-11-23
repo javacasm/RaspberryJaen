@@ -11,7 +11,7 @@
 
 # ¿Raspberry Pi vs Arduino?
 
-![vs](./imagenes/arduinovsRaspberry.jpg)
+![vs](./images/arduinovsRaspberry.jpg)
 
 * ¿Son incompatibles?
 
@@ -21,4 +21,4 @@
 
 * Raspberry es más inteligente
 
-![vs](./imagenes/arduinovsRaspberry.png)
+![vs](./images/arduinovsRaspberry.png)

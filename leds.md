@@ -11,7 +11,7 @@
 
 # GPIO
 
-![1](./imagenes/GPIORasp.png)
+![1](./images/GPIORasp.png)
 
 * Son los pines que podemos usar como salidas o como entradas, pero siempre de tipo digital.
 * Utilizan 3.3V
@@ -30,15 +30,15 @@
 
 Hay que tener cuidado con no equivocarse. Podemos usar una etiqueta
 
-![1](./imagenes/etiquetas.png)
+![1](./images/etiquetas.png)
 
 Las distinas versiones tienen algunos pines distintos
 
-![1](./imagenes/GPIOV2.png)
+![1](./images/GPIOV2.png)
 
 Las versiones de 40 pines
 
-![40](./imagenes/RP2_Pinout.png)
+![40](./images/RP2_Pinout.png)
 
 ## Librerías
 
@@ -51,7 +51,7 @@ Hay 4 librerías GPIO
 
 Veamos como llaman a los distintos pines
 
-![1](./imagenes/NombresGPIO.png)
+![1](./images/NombresGPIO.png)
 
 ## Wiring
 
@@ -72,17 +72,17 @@ Y ya podemos udarla
 	gpio readall
 
 
-![readall](./imagenes/readall.png)
+![readall](./images/readall.png)
 
 ## Conectando un led
 
 Este es el esquema para conectar un led
 
-![led](./imagenes/led.png)
+![led](./images/led.png)
 
 El montaje sería
 
-![esquema](./imagenes/esquemaled.png)
+![esquema](./images/esquemaled.png)
 
 Hagamos un programa que parpadea el led conectado
 
@@ -111,11 +111,11 @@ Para ejecutar estos programas necesitamos permiso de administrador
 
 # Conectado un pulsador
 
-![pulsador](./imagenes/pulsador.png)
+![pulsador](./images/pulsador.png)
 
 Usando el código
 
-![codigo](./imagenes/codigopulsador.png)
+![codigo](./images/codigopulsador.png)
 
 ## Usando GPIO
 
@@ -156,7 +156,7 @@ O este ejemplo más complejo
 
 En el caso bastante normal de que necesitemos más potencia de las que nos da un pin (16mA) Podemos utilizar un transistor. Veamos el montaje
 
-![transistor](./imagenes/transistor.png)
+![transistor](./images/transistor.png)
 
 
 A la salida de este transistor podemos conectar un relé para obtener aún más potencia
@@ -165,7 +165,7 @@ A la salida de este transistor podemos conectar un relé para obtener aún más 
 
 Para leer valores analógicos usaremos electrónica externa, com pueden se [esta placa](http://www.abelectronics.co.uk/products/3/Raspberry-Pi/17/) o [esta otra](http://www.adafruit.com/products/1085), ambas de 16 bits. El [montaje es sencillo](http://learn.adafruit.com/reading-a-analog-in-and-controlling-audio-volume-with-the-raspberry-pi)
 
-![adc](./imagenes/adc.png)
+![adc](./images/adc.png)
 
 
 
@@ -182,7 +182,7 @@ El bus I2C y SPI nos permiten conectar con dispositivos externos que nos
 expanden su funcionalidad. Es como si conectáramos periféricos a nuestra
 Raspberry.
 
-![pines](./imagenes/pi2GPIO.jpg)
+![pines](./images/pi2GPIO.jpg)
 
 * También están disponibles las líneas de alimentación de 5v y 3.3v y por supuesto tierra.
 
@@ -193,11 +193,11 @@ Raspberry.
 * En caso de querer conectar con lógica de 5v tendremos que usar una electrónica para adaptar niveles.
 * Existen dispositivos convertidores de niveles (level shifters) con diferentes tecnologías. Los más antiguos están formados por unas resistencias y unos transistores.
 
-![shifper](./imagenes/shifter.png)
+![shifper](./images/shifter.png)
 
 Para identificar más fácilmente los pines podemos usar una etiqueta
 
-![etiqueta](./imagenes/etiqueta.png)
+![etiqueta](./images/etiqueta.png)
 
 
 ## Placas GPIO
@@ -211,20 +211,20 @@ Para identificar más fácilmente los pines podemos usar una etiqueta
 * En cualquier caso ganamos en tranquilidad al usarlas.
 
 
-![clobber](./imagenes/clobber.jpg)
+![clobber](./images/clobber.jpg)
 
 Son simples adaptadores que nos facilitan la vida permitiendo conectar de manera sencilla
 con las placas de prototipo
 
 ### PiPlate
 
-![piplate](./imagenes/piplate.png)
+![piplate](./images/piplate.png)
 
 Se trata de una placa de prototipo especialmente adaptada al tamaño de la Raspberry y que nos permite acceder de forma sencilla a los pines por nombre y funcionalidad.
 
 ### PiFace
 
-![piface](./imagenes/piface.png)
+![piface](./images/piface.png)
 
 * Tiene un fin claramente educativo,
 * Incluye diferentes dispositivos
@@ -232,23 +232,23 @@ Se trata de una placa de prototipo especialmente adaptada al tamaño de la Raspb
 * 2 relés para activar cargas de potencia y
 * 4 pulsadores conectados a otras tantas entradas
 
-![esquemapiface](./imagenes/esquemapiface.png)
+![esquemapiface](./images/esquemapiface.png)
 
 ### Slice of I/O
 
-![slice](./imagenes/slice.png)
+![slice](./images/slice.png)
 
 Se trata de una p laca sencilla que nos permite acceder a 8 entradas y otras tantas salidas con la seguridad de que existe una electrónica que protege a nuestra RaspBerry
 
 ### Gertboard
 
-![gertboard](./imagenes/gertboard.png)
+![gertboard](./images/gertboard.png)
 
 Es una placa de desarrollo con una enorme cantidad de complementos, como son controladores de motores, ADC, DAC, 12 leds, 3 pulsadores y hasta un microcontrolador ATMega (similar a Arduino)
 
 ### RaspiRobot
 
-![raspirobot](./imagenes/raspirobot.png)
+![raspirobot](./images/raspirobot.png)
 
 * El manejo de motores es mucho más complejo que el manejo de leds.
 * La programación es exactamente la misma,
@@ -294,7 +294,7 @@ Un programa podría ser
 
 ### Steppers: motores paso a paso
 
-![stepper](./imagenes/stepper.png)
+![stepper](./images/stepper.png)
 
 Los motores paso a paso son motores que nos permiten una gran precisión de giro, pudiendo determinar su moviendo en grados.
 
@@ -337,7 +337,7 @@ Vamos a ver ahora la programación.
 
 Veamos un ejemplo de su precisión
 
-![polarplot](./imagenes/polarplot.png)		
+![polarplot](./images/polarplot.png)		
 
 ## Servos
 
@@ -345,7 +345,7 @@ Los servos son motores pensados para mantener una posición concreta, disponen d
 
 El ancho de este pulso determina la posición a mantener, como podemos ver en la imagen adjunta.
 
-![servocontrol](./imagenes/servocontrol.png)
+![servocontrol](./images/servocontrol.png)
 
 La estabilidad de la posición depende de la precisión con la enviemos la señal de control.
 
@@ -372,7 +372,7 @@ Podemos mejorar la calidad de la señal utilizando un programa escrito en C que 
 
 Vamos a utilizar un par de servos para hacer que una cámara [siga una cara](http://www.instructables.com/id/Pan-Tilt-face-tracking-with-the-raspberry-pi/?ALLSTEPS)
 
-![opencvCamara](./imagenes/opencvCamara.png)
+![opencvCamara](./images/opencvCamara.png)
 
 Estos son los pasos para instalar todo lo necesario
 

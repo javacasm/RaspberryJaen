@@ -28,9 +28,9 @@
 
 ## [One Laptop Per Child (OLPC)](http://one.laptop.org/)
 
-![olpc](./imagenes/opc.jpg)
+![olpc](./images/opc.jpg)
 
-![aulaOLPC](./imagenes/aulaOLPC.jpg)
+![aulaOLPC](./images/aulaOLPC.jpg)
 
 ## [Arduino](http://arduino.cc)
 

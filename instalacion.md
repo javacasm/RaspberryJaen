@@ -18,7 +18,7 @@
 * ¿Qué imagen usar?
 	* Empecemos con [Noobs](https://www.raspberrypi.org/blog/tag/noobs/)
 	* [Instalación](https://www.raspberrypi.org/help/noobs-setup/)
-![noobs](./imagenes/noobs.png)
+![noobs](./images/noobs.png)
 
 * ¡¡¡Arrancar!!!
 * Configuración
@@ -29,13 +29,13 @@
 
 (Puede variar algo según la versión)
 
-![config](./imagenes/config.png)
+![config](./images/config.png)
 
-![teclado](./imagenes/teclado.png)
+![teclado](./images/teclado.png)
 
-![avanzado](./imagenes/avanzados.png)
+![avanzado](./images/avanzados.png)
 
-![overclock](./imagenes/overcock.png)
+![overclock](./images/overcock.png)
 
 
 Una vez configurado podemos abrir el entorno visual con
@@ -44,7 +44,7 @@ Una vez configurado podemos abrir el entorno visual con
 
 
 
-![statx](./imagenes/raspX.png)
+![statx](./images/raspX.png)
 
 En cualquier momento podemos volver a reconfigurar
 

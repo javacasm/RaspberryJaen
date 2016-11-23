@@ -11,7 +11,7 @@
 
 # Equipo
 
-![montajeCompleto](./imagenes/MontajeCompleto.png)
+![montajeCompleto](./images/MontajeCompleto.png)
 
 ## Obligatorios
 
@@ -31,7 +31,7 @@ Y si la vas a usar como un ordenador
 * Wifi
 * Hub USB con alimentación, así podremos añadir más dispositivos y evitaremos cargar la potencia de la Raspberry
 
-![carcasaLego](./imagenes/carcasaLego.jpg)
+![carcasaLego](./images/carcasaLego.jpg)
 
 
 

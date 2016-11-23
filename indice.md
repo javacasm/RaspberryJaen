@@ -30,6 +30,7 @@
 	1. [Usos](./usos.md)
 	1. [Simuladores](./simuladores.md)
 	1. [Uso en exteriores](./Exteriores.md)
+	1. [Conexión directa](./conexionDirecta.md)
 
 1. Programación
 	1. [Programando](./programando.md)

@@ -20,7 +20,7 @@
 
 
 1. Usando nuestra Raspberry
-	1. [¿Qué necesitamos?](./equipo.md) [¿Dónde comprar?](./dondeyquecompar.md)
+	1. [¿Qué necesitamos?](./equipo.md) [¿Dónde comprar?](./dondeyquecomprar.md)
 	1. [Arquitectura](./estructura.md)
 	1. [Sistemas Operativos disponibles](./sos.md)
 	1. [Instalación](./instalacion.md)

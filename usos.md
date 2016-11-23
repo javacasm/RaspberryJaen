@@ -56,7 +56,7 @@
 
 [Aulas informatica](https://www.raspberrypi.org/blog/bringing-computing-to-rural-cameroon/)
 
-![aula](./imagenes/AulaPi.jpg)
+![aula](./images/AulaPi.jpg)
 
 [Servidor de aula (Kahn Academy Offline)](http://www.raspberrypi.org/archives/3829?sf12291563=1)
 
@@ -74,7 +74,7 @@
 
 * [Cluster de supercomputación](http://www.cyberhades.com/2014/02/19/tutorial-para-instalar-un-cluster-de-40-nodos-con-raspberry-pi/)
 
-![cluster](./imagenes/PiCluster1.JPG)
+![cluster](./images/PiCluster1.JPG)
 
 * [Minería de BitCoin](https://learn.adafruit.com/piminer-raspberry-pi-bitcoin-miner)
 
@@ -151,4 +151,4 @@
 
 [Seguidor de flotas](http://www.stuffaboutcode.com/2013/10/raspberry-pi-car-cam-gps-data-map.html)
 
-![coche](./imagenes/coche.jpg)
+![coche](./images/coche.jpg)

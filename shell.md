@@ -15,7 +15,7 @@ Los scripts son ficheros donde colocamos distintas órdenes que se irán realiza
 
 ## Usando la cámara
 
-![camara](./imagenes/camara.jpg)
+![camara](./images/camara.jpg)
 
 La cámara tiene su propio conector, junto a las conectores GPIO.
 
@@ -23,7 +23,7 @@ Antes de poder utilizarla tenemos que activarla
 
 	sudo raspi-config
 
-![activaCamara](./imagenes/activaCamara.png)
+![activaCamara](./images/activaCamara.png)
 
 Tenemos 2 aplicaciones para usar la cámara
 
@@ -124,7 +124,7 @@ Veremos si se ha detectado con:
 
 Si se detecta
 
-![imagen](./imagenes/webcamdetected.png)
+![imagen](./images/webcamdetected.png)
 
 Instalamos fswebcam
 
@@ -154,7 +154,7 @@ Podemos ver que se están realizando capturas de imágenes cada 10 segundos y co
 
 ## Control remoto de camaras
 
-![camaraPrio](./imagenes/camaraPro.png)
+![camaraPrio](./images/camaraPro.png)
 
 También podemos controlar cámaras profesionales que suelen admitir conexión USB (como por ejemplo una Canon Rebel T4i / 650D)
 

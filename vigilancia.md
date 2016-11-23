@@ -21,7 +21,7 @@ Editamos la configuracion
 
 	sudo nano /etc/motion/motion.conf
 
-![motion](./imagenes/motion.jpg)
+![motion](./images/motion.jpg)
 
 Lo arrancamos
 

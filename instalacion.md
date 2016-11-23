@@ -5,6 +5,8 @@
 23, 29 y 30 de Noviembre de 2016
 
 ![CC](./images/Licencia_CC.png)
+![CC](./images/Licencia_CC_grande.png)
+![CC](./images/Licencia CC peque.png)
 ## José Antonio Vacas  @javacasm
 
 ### [https://github.com/javacasm/RaspberryJaen](https://github.com/javacasm/RaspberryJaen)

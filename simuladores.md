@@ -15,7 +15,7 @@
 
 ## [En windows](http://www.diverteka.com/?p=66)
 
-![qemu](./imagenes/qemu.png)
+![qemu](./images/qemu.png)
 
 * Descargamos la imagen en  [http://sourceforge.net/projects/rpiqemuwindows/](http://sourceforge.net/projects/rpiqemuwindows/)
 	* Emulador qemu

@@ -19,7 +19,7 @@ Como sabes es una máquina Linux, con lo que podrás manejarla igual que se mane
 
 kindle(RP para agentes secretos)(The importance of a sneaky ...)
 
-![console](./imagenes/console.png)
+![console](./images/console.png)
 
 ### Comandos básicos:
 
@@ -47,7 +47,7 @@ El usuario por defecto es "pi" con contraseña "raspberry"
 
 ## Interface gráfico
 
-![statx](./imagenes/raspX.png)
+![statx](./images/raspX.png)
 
 ## Acceso remoto
 
@@ -63,7 +63,7 @@ Entramos en la configuración avanzada
 
 	sudo raspi-config
 
-![ssh](./imagenes/ssh.png)
+![ssh](./images/ssh.png)
 
 Podemos hacerlo también por comandos con
 
@@ -88,4 +88,4 @@ Este software requiere que un servicio se ejecute al arrancar si queremos accede
 
 	su -c "/usr/bin/tightvncserver :1 -geometry 800x600 -depth 16" pi
 
-![vnc](./imagenes/vnc.png)
+![vnc](./images/vnc.png)

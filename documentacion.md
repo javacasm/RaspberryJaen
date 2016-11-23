@@ -9,14 +9,23 @@
 
 ### [https://github.com/javacasm/RaspberryJaen](https://github.com/javacasm/RaspberryJaen)
 
+## Revistas
+
 [Revista The MagPy](www.themagpi.com)
-( [Libro de proyectos](https://www.raspberrypi.org/magpi/raspberry-pi-projects-book-2/) [todos](https://www.raspberrypi.org/magpi/issues/))
+
+[todos](https://www.raspberrypi.org/magpi/issues/))
+
+( [Libro de proyectos](https://www.raspberrypi.org/magpi/raspberry-pi-projects-book-2/)
 
 
-Libros:  
+### Libros
+
 * Programing the Raspberry Pi, Simon Monk
 * Raspberry Pi for Secret Agents
 * Raspberry Pi Gamming
+
+
+### Tutoriales
 
 [Raspberry pi Class (instructables)](http://www.instructables.com/class/Raspberry-Pi-Class/?utm_source=newsletter&utm_medium=email)
 
@@ -27,3 +36,9 @@ Libros:
 [Tutoriales de Adafruit](https://learn.adafruit.com/search?q=raspberry)
 
 [Tutoriales de sparkfun](https://www.sparkfun.com/search/results?term=raspberry)
+
+### Referencia
+
+[wikipedia](https://en.wikipedia.org/wiki/Raspberry_Pi)
+
+[Products at Raspberry.org](https://www.raspberrypi.org/products/ )

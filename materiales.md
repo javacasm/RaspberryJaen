@@ -18,7 +18,7 @@
 * Monitor HDMI (o VGA con adaptador)
 * Teclado y raton USB (mejor si es inalambrico, porque consume menos)
 * Conexión a la red: Cable ethernet o dongle Wifi
-
+* Hub USB alimentado externamente (para evitar cargar demasiado a la Raspberry)
 
 
 ## ¿Dónde encontrarlos?

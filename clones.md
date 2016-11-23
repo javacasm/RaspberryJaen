@@ -21,27 +21,27 @@
 
 * BeagleBoard  ARM Cortex-A8 256MB 89€
 
-![beagle](./imagenes/Beagle.png)
+![beagle](./images/Beagle.png)
 
 
 * OLinuXino  Cortex A8 1GHz  512 MB 55€
 
-![Olixunio](./imagenes/Olinuxino.png)
+![Olixunio](./images/Olinuxino.png)
 
 
 UDOO=raspberry+arduino
 6 ARM Cortex-A9 CPU Dua/Quad core 1GHz
 1GB
 
-![udoo](./imagenes/UDOO.png)
+![udoo](./images/UDOO.png)
 
 Cubieboard ARM cortex-A8 y 512 MB 49$
 
-![Cubieboard](./imagenes/Cubbieboard.png)
+![Cubieboard](./images/Cubbieboard.png)
 
 Carambola 8devices (32Mb RAM) 22$
 
-![Carambola](./imagenes/carambola.png)
+![Carambola](./images/carambola.png)
 
 Arduino Tre e Intel Galileo
 http://blog.elcacharreo.com/2013/10/04/nuevos-arduino-galileo-y-tre/

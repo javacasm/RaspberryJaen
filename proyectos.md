@@ -13,7 +13,7 @@
 
 ## [Aulas informatica](https://www.raspberrypi.org/blog/bringing-computing-to-rural-cameroon/)
 
-![aula](./imagenes/AulaPi.jpg)
+![aula](./images/AulaPi.jpg)
 
 ## [Laboratorio](https://learn.adafruit.com/mcp4725-12-bit-dac-with-raspberry-pi)
 ![dac](https://learn.adafruit.com/system/guides/images/000/000/092/medium310/DAC_Scope.png?1396720955)
@@ -26,7 +26,7 @@
 
 ## [Supercomputación](http://www.cyberhades.com/2014/02/19/tutorial-para-instalar-un-cluster-de-40-nodos-con-raspberry-pi/)
 
-![cluster](./imagenes/PiCluster1.JPG)
+![cluster](./images/PiCluster1.JPG)
 
 ## [Minería de BitCoin](https://learn.adafruit.com/piminer-raspberry-pi-bitcoin-miner)
 
@@ -59,4 +59,4 @@
 
 ## [Kano: portátil  basado en raspberrypi](http://www.raspberrypi-spy.co.uk/2016/04/kano-computer-kit-first-impressions/)
 
-![kano](./imagenes/kano_kit_02-1024x683.jpg)
+![kano](./images/kano_kit_02-1024x683.jpg)

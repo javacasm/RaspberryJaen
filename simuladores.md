@@ -28,10 +28,10 @@
 
 [Vídeo](http://www.youtube.com/watch?feature=player_embedded&v=QvqaNUx7-pU)
 
-# [En ubuntu](http://www.cnx-software.com/2011/10/18/raspberry-pi-emulator-in-ubuntu-with-qemu/)
+## [En ubuntu](http://www.cnx-software.com/2011/10/18/raspberry-pi-emulator-in-ubuntu-with-qemu/)
 
+## [Simulando en virtualBox](https://www.raspberrypi.org/forums/viewtopic.php?f=9&t=2961)
 
-# [Simulando en virtualBox](https://www.raspberrypi.org/forums/viewtopic.php?f=9&t=2961)
-
+## [Simulando el Sense Hat](https://www.raspberrypi.org/blog/sense-hat-emulator/)
 
 Sobre la velocidad....

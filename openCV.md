@@ -26,7 +26,7 @@ Un proyecto sencillo: detectar la posición de unos círculos en la imagen.
 (Deteccion de una pelota en el suelo. Basta con que sepamos “restar” el fondo a nuestra
 imagen)
 
-![detectandoCirculos.png](./imagenes/detectandoCirculos.png)
+![detectandoCirculos.png](./images/detectandoCirculos.png)
 
 Instalamos
 

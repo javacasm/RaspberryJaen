@@ -11,6 +11,18 @@
 
 # Materiales
 
+* Raspbery Pi
+* Tarjeta SD de al menos 4Gb
+* Alimentación de 5V y al menos 2A (mejor si son 2.5A)
+* Caja para evitar cortocircuitos
+* Monitor HDMI (o VGA con adaptador)
+* Teclado y raton USB (mejor si es inalambrico, porque consume menos)
+* Conexión a la red: Cable ethernet o dongle Wifi
+
+
+
+## ¿Dónde encontrarlos?
+
 * [Kit base](http://www.electan.com/kit-raspberry-con-caja-alimentador-microsd-hdmi-wifi-p-6186.html)
 * [Shield electronica](http://tinkersphere.com/raspberry-pi-hats/633-starter-raspberry-pi-led-hat.html)
 * [kit amazon](http://www.amazon.es/s/ref=sr_pg_2?rh=i%3Aaps%2Ck%3Araspberry+pi+2+kit+starter&page=2&sort=price-asc-rank&keywords=raspberry+pi+2+kit+starter&ie=UTF8&qid=1449858467)

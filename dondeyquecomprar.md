@@ -4,7 +4,7 @@
 
 11, 12 y 17 de Mayo de 2016
 
-![CC](./imagenes/Licencia_CC.png)
+![CC](./images/Licencia_CC.png)
 ## José Antonio Vacas  @javacasm
 
 ### [https://github.com/javacasm/RaspberryLinares](https://github.com/javacasm/RaspberryLinares)

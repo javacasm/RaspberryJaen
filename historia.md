@@ -48,14 +48,15 @@ Versión B (512M y ethernet)
 
 Versión A (256MB)
 
-[Tabla de los distintos modelos y sus características](https://es.wikipedia.org/wiki/Raspberry_Pi#Especificaciones_t.C3.A9cnicas)
-
-[Comparativa Raspberry 2](https://learn.adafruit.com/introducing-the-raspberry-pi-2-model-b?view=all)
+[La llegada de los clones](./clones.md)
 
 
 ### Refencias
 
 [wikipedia](https://en.wikipedia.org/wiki/Raspberry_Pi)
+
 [Products at Raspberry.org](https://www.raspberrypi.org/products/ )
 
-[La llegada de los clones](./clones.md)
+[Tabla de los distintos modelos y sus características](https://es.wikipedia.org/wiki/Raspberry_Pi#Especificaciones_t.C3.A9cnicas)
+
+[Comparativa Raspberry 2](https://learn.adafruit.com/introducing-the-raspberry-pi-2-model-b?view=all)

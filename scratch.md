@@ -13,7 +13,7 @@
 
 Podemos probarlo [online](https://scratch.mit.edu/projects/editor/)
 
-![scratch](./imagenes/scratch.png)
+![scratch](./images/scratch.png)
 
 Está pensado para enseñar a programar sin la complejidad de la sintaxis.
 
@@ -23,4 +23,4 @@ Otros similares
 
 * [Code.org](Code.org)
 
-![code](./imagenes/code.png)
+![code](./images/code.png)

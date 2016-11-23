@@ -11,6 +11,6 @@
 
 # Arquitectura
 
-![bloques](./imagenes/bloques.png)
+![bloques](./images/bloques.png)
 
-![estructura](./imagenes/estructura.png)
+![estructura](./images/estructura.png)

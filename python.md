@@ -19,28 +19,28 @@ Se utiliza en la web, en aplicaciones de escritorio, etc... Gran parte del inter
 
 Podemos utilizar la herramiente Idle o python directamente para programar con él.
 
-![idle](./imagenes/idle.png)
+![idle](./images/idle.png)
 
 Veamos algunos ejemplos
 
 * Operaciones numéricas y petición de datos al usuario
 
-![suma](./imagenes/suma.png)
+![suma](./images/suma.png)
 
 * Sentencias de control condicionales
 
-![bisiesto](./imagenes/bisiesto.png)
+![bisiesto](./images/bisiesto.png)
 
-![diasMes](./imagenes/diasMes.png)
+![diasMes](./images/diasMes.png)
 
 * Sentencias de control de repetición
 
-![busca](./imagenes/buscaCaracter.png)
+![busca](./images/buscaCaracter.png)
 
 * Diccionarios que nos permitirán relacionar contenidos
 
-![dict](./imagenes/diccionarios.png)
+![dict](./images/diccionarios.png)
 
 * Veamos una implementación de un programa más elaborado como "Piedra, Papel o Tijera"
 
-![PPT](./imagenes/PPT.png)
+![PPT](./images/PPT.png)

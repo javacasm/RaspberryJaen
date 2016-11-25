@@ -39,7 +39,7 @@ Utilizaremos la libre pyGTK que permite crear e interacionar ventanas desde pyth
 
 	main()
 
-![gtk](https://github.com/oslugr/curso-python-avanzado/raw/master/img/InterfacesGtk_01_hola_mundo.png)
+![gtk](https://raw.githubusercontent.com/oslugr/curso-python-avanzado/master/img/InterfacesGtk_01_hola_mundo.png)
 
 Utilizaremos Glade para diseñar el interface
 

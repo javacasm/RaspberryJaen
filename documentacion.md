@@ -11,11 +11,11 @@
 
 ## Revistas
 
-[Revista The MagPy](www.themagpi.com)
+[Revista The MagPy](https://www.raspberrypi.org/magpi/)
 
-[todos](https://www.raspberrypi.org/magpi/issues/))
+[todos](https://www.raspberrypi.org/magpi/issues/)
 
-( [Libro de proyectos](https://www.raspberrypi.org/magpi/raspberry-pi-projects-book-2/)
+[Libro de proyectos](https://www.raspberrypi.org/magpi/raspberry-pi-projects-book-2/)
 
 
 ### Libros

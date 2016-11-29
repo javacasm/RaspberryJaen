@@ -11,11 +11,11 @@
 
 # Raspberry en los medios
 
-Has sido muchas las películas donde últimamente aparece
+Han sido muchas las películas y series donde han aparecido últimamente Raspberry Pi
 
-* [Mr Robot](http://null-byte.wonderhowto.com/how-to/hacks-mr-robot-build-hacking-raspberry-pi-0163143/)
+* [Serie Mr. Robot](http://null-byte.wonderhowto.com/how-to/hacks-mr-robot-build-hacking-raspberry-pi-0163143/)
 
-[vídeo](https://www.youtube.com/watch?v=55jypw_xAo0)
+[Vídeo de Mr. Robot](https://www.youtube.com/watch?v=55jypw_xAo0)
 
 * CSI Cyber (video)
 
@@ -23,7 +23,7 @@ Has sido muchas las películas donde últimamente aparece
 ## ¿Cómo lo usan?
 
 
-* Mr. Robot: Datalogger
+* Mr. Robot: utilizan como Datalogger y para inyectar datos erróneos en el sistema de temperatura para
 
 
-* CSI: Bridge
+* CSI: Bridge para capturar datos

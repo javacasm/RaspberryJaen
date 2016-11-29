@@ -11,28 +11,29 @@
 
 # Orígenes
 
-Se trata de crear un sistema barato capaz de permitir enseñar a los niños (y a adultos) a programar.
+La intención era crear un sistema barato que nos permitiera enseñar a programar a niños y adultos.
 
 * En 2005, la Universidad de Cambridge notó como cada vez menos estudiantes quería estudiar informática
 
 * Pensaron que la solución podía ser un ordenador superbarato con el que pudieran jugar, aprendiendo en el camino.
 
 * Se empezó a construir en 2006, pero era difícil
-![prototipo](./images/prototipoRaspi.jpg)
+![Prototipo de Raspberry Pi](./images/prototipoRaspi.jpg)
 
 * En 2009 ya existía la tecnología necesaria y se creó "Raspberry Pi Fundation" administrada por Eben Upton
 
 * En 2011 aparecen los primeros prototipos y se ven factibles modelos de 25$ y 35$. Aparece el modelo B Beta
 
-![beta](./images/betaPi.png)
+![Placa beta de Raspberry Pi](./images/betaPi.png)
 
 
 Utiliza un diseño avanzado
-![avanzado](./images/EncapsuladoCPU-RAM.JPG)
 
-# [Versiones](https://www.raspberrypi.org/documentation/hardware/raspberrypi/models/README.md)
+![Diseño avanzado](./images/EncapsuladoCPU-RAM.JPG)
 
-![modelos](images/raspberry-pi-models.jpg)
+##  [Versiones](https://www.raspberrypi.org/documentation/hardware/raspberrypi/models/README.md)
+
+![Diferentes modelos de Raspberry Pi](images/raspberry-pi-models.jpg)
 
 [Version 3](https://www.raspberrypi.org/products/raspberry-pi-3-model-b/) (1.2GHz quad core 1Gb Wifi y bluetooth)
 
@@ -51,9 +52,9 @@ Versión A (256MB)
 [La llegada de los clones](./clones.md)
 
 
-### Refencias
+## Refencias
 
-[wikipedia](https://en.wikipedia.org/wiki/Raspberry_Pi)
+[Artículo de la wikipedia sobre RaspBerry Pi](https://en.wikipedia.org/wiki/Raspberry_Pi)
 
 [Products at Raspberry.org](https://www.raspberrypi.org/products/ )
 

@@ -11,11 +11,11 @@
 
 # Dónde y qué comprar
 
-* [Raspberry.org](Raspberry.org)
-* [www.electan.com](www.electan.com)
-* [www.amazon.es](www.amazon.es)
-* [www.bricogeek.com](www.bricogeek.com)
-
+* [Raspberry.org](http://Raspberry.org)
+* [www.electan.com](http://www.electan.com)
+* [www.amazon.es](http://www.amazon.es)
+* [www.bricogeek.com](http://www.bricogeek.com)
+* [www.raspipc.com](http://www.raspipc.com)
 ¿Algún sitio donde comprar en Granada?
 
 ## ¿Qué comprar?

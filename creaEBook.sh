@@ -15,3 +15,6 @@ do :
 done
 
 pandoc -o $TEMP_DIR/Raspberry.epub $TEMP_file
+
+mv $TEMP_DIR/Raspberry.epub .
+rm -rf $TEMP_DIR

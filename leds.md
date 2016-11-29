@@ -14,7 +14,7 @@
 ![1](./images/GPIORasp.png)
 
 * Son los pines que podemos usar como salidas o como entradas, pero siempre de tipo digital.
-* Utilizan 3.3V
+* Utilizan **3.3V**
 * Podemos configurar cada uno como entrada o como salida
 * Algunos de ellos se pueden usar como comunicaciones especializadas: SPI, I2C, UART
 

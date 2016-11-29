@@ -48,13 +48,17 @@ kindle(RP para agentes secretos)(The importance of a sneaky ...)
 
 ### Usuarios
 
-El usuario por defecto es "pi" con contraseña "raspberry"
+El usuario por defecto es "**pi**" con contraseña "**raspberry**"
 
 ### Cuidado con sudo
 
+Nos da todo el poder del usuario administrador (**root**)
+
 ## Interface gráfico
 
-![statx](./images/raspX.png)
+Para arrancar el interface gráfico (si no está arrancado)
+
+![startx](./images/raspX.png)
 
 ## Acceso remoto
 
@@ -91,7 +95,7 @@ VNC es un protocolo que nos permite acceder remotamente al escritorio de otra m�
 
 	sudo apt-get install tightvncserver
 
-Este software requiere que un servicio se ejecute al arrancar si queremos acceder en cualquier momento. Podemos instalarlo añadiendo la siguiente línea al archivo /etc/rc.local
+Este software requiere que un servicio se ejecute al arrancar si queremos acceder en cualquier momento. Podemos instalarlo añadiendo la siguiente línea al archivo **/etc/rc.local**
 
 
 	su -c "/usr/bin/tightvncserver :1 -geometry 800x600 -depth 16" pi

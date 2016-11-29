@@ -23,28 +23,28 @@ kindle(RP para agentes secretos)(The importance of a sneaky ...)
 
 ### Comandos básicos:
 
-	* ls : muestra los archivos y directorios ( -l para más detalles y -a para mostrar todos)
-	* cd directorio : cambia de directorio (cd ~ nos lleva a nuestro directorio home y cd .. sale del directorio actual)
-	* chmod : cambia los permisos de un fichero/directorio (chmod ugo-w quita todos los permisos de escritura)
-	* pwd : nos dice el directorio actual
-	* mv : mueve directorios/ficheros a un nuevo destino
-	* rm : borra directorios/ficheros
-	* mkdir : crea un directorio
-	* passwd : cambia la contraseña del usuario actual
-	* ps -ef : muestra los procesos en ejecución
-	* top : administrador de tareas
-	* clear : borra todo el contenido del terminal
-	* df : muestra el % de disco ocupado
-	* nano : editor de texto básico
-	* vi : editor de texto avanzado pero complejo
-	* du : muestra lo que ocupa un directorio (du -s * muestra lo que ocupa un directorio y todo lo que contiene)
-	* sudo halt
-	* sudo shutdown -h now
-	* history : muestra todos los comandos que se han ejecutado antes (las teclas abajo/arriba del cursor nos permiten iterar por los comandos usados)
-	* La tecla Tabulador nos permite completar el nombre del fichero/directorio
-	* man comando: Para obtener ayuda sobre comando
-	* Para hacer fichero script: añadimos los comandos, chmod u+x fichero y para ejecutarlo ./fichero
-	
+* **ls** : muestra los archivos y directorios ( **ls -l** para más detalles y **ls -a** para mostrar todos)
+* **cd** : cambia de directorio (**cd ~** nos lleva a nuestro directorio home y **cd ..** sale del directorio actual)
+* **chmod** : cambia los permisos de un fichero/directorio (**chmod ugo-w fichero** quita todos los permisos de escritura)
+* **pwd** : nos dice el directorio actual
+* **mv** : mueve directorios/ficheros a un nuevo destino
+* **rm** : borra directorios/ficheros
+* **mkdir** : crea un directorio
+* **passwd** : cambia la contraseña del usuario actual
+* **ps -ef** : muestra los procesos en ejecución
+* **top** : administrador de tareas
+* **clear** : borra todo el contenido del terminal
+* **df** : muestra el % de disco ocupado
+* **nano** : editor de texto básico
+* **vi** : editor de texto avanzado pero complejo
+* **du** : muestra lo que ocupa un directorio (**du -s *** muestra lo que ocupa un directorio y todo lo que contiene)
+* **sudo halt** apaga la raspberry
+* **sudo shutdown -h now** apaga la raspberry
+* **history** : muestra todos los comandos que se han ejecutado antes. Podemos ejecutar el comando de la posición n, con !n . Las teclas abajo/arriba del cursor nos permiten iterar por los comandos usados.
+* La tecla Tabulador nos permite completar el nombre del fichero/directorio
+* **man comando**: Para obtener ayuda sobre comando
+* Para hacer fichero script: añadimos los comandos, chmod u+x fichero y para ejecutarlo ./fichero
+
 
 ### Usuarios
 

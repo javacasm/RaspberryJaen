@@ -25,6 +25,7 @@ kindle(RP para agentes secretos)(The importance of a sneaky ...)
 
 	* ls
 	* cd
+	* chmod
 	* pwd
 	* mv
 	* rm

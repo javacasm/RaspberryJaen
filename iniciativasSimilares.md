@@ -11,9 +11,11 @@
 
 # Iniciativas similares
 
+Existen proyectos similares en su origen y que han tenido gran difusión
+
 ## [Micro micro:Bit](http://www.eldiario.es/turing/BBC_micro-bit-utilizaran-escolares-Reino-Unido_0_411209780.html)
 
-	Llegará a todos los chavales de 11 y 12 años
+Está previsto que llegue a todos los escolares británicos de 11 y 12 años.
 
 ![microbit](http://images.eldiario.es/turing/BBC-microbit-principal_EDIIMA20150720_0805_18.jpg)
 
@@ -27,6 +29,8 @@
 [Vídeo](https://www.youtube.com/watch?time_continue=6&v=Wuza5WXiMkc)
 
 ## [One Laptop Per Child (OLPC)](http://one.laptop.org/)
+
+Un ordenador superbarato y que se puede utilizar en condiciones complejas: sin electricidad (tiene un generador de manivela) y capaz de crear su propia red de comunicaciones
 
 ![olpc](./images/opc.jpg)
 

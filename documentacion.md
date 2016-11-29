@@ -13,7 +13,7 @@
 
 [Revista The MagPy](https://www.raspberrypi.org/magpi/)
 
-[todos](https://www.raspberrypi.org/magpi/issues/)
+[Todos los números](https://www.raspberrypi.org/magpi/issues/)
 
 [Libro de proyectos](https://www.raspberrypi.org/magpi/raspberry-pi-projects-book-2/)
 

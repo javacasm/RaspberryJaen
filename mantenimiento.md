@@ -11,7 +11,11 @@
 
 # Mantenimiento
 
-## update
+Una vez instalado el sistema, necesitamos de vez en cuando actualizarlo.
+
+## Actualización (update)
+
+Des un terminal/consola
 
 Para buscar cambios
 
@@ -25,16 +29,11 @@ Para actualizar el sistema
 
 	sudo apt-get dist-upgrade
 
-Para instalar un paquete
+Para instalar un paquete determinado
 
 	sudo apt-get install paquete
 
-### Sistema operativo
-
-### Firmware
-
-kindle(RP para agentes secretos)(Keeping yout system up-to-date...)
-
+(siempre podemos instalar desde la herramienta visual "Añadir programas" en el menú Preferencias)
 
 ## Cuidados eléctricos
 

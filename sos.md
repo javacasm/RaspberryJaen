@@ -27,4 +27,6 @@
 
 ## [Android](https://www.raspberrypi.org/magpi/android-raspberry-pi/)
 
-### ([¿Dónde encontrarlos?](https://www.raspberrypi.org/downloads/))
+
+
+## ([¿Dónde encontrarlos?](https://www.raspberrypi.org/downloads/))

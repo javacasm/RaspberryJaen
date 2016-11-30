@@ -9,6 +9,6 @@
 
 ### [https://github.com/javacasm/RaspberryJaen](https://github.com/javacasm/RaspberryJaen)
 
-# mathematicaPi
+# Mathematica en nuestra Raspbery Pi
 
-Hay una versión gratuita de Worlfram ...
+Hay una versión gratuita de Worlfram por defecto en Raspbian

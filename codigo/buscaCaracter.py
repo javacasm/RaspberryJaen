@@ -1,3 +1,4 @@
+# Cuenta las veces que se repite un caracter en una palabra
 word= 'palabra';
 caracter = 'a';
 contador=0;

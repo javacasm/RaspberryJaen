@@ -68,7 +68,7 @@
 ## Robótica
 [Raspberry y Lego Minstorm](https://learn.sparkfun.com/tutorials/getting-started-with-the-brickpi?_ga=1.260570443.733603098.1443800444)
 
-![lego](https://cdn.sparkfun.com/r/600-600/assets/8/3/6/4/0/Brick_Pi_Hookup_Guide-12.jpg)
+![Robot Lego controlado por Raspberry Pi](https://cdn.sparkfun.com/r/600-600/assets/8/3/6/4/0/Brick_Pi_Hookup_Guide-12.jpg)
 
 ## Data crunching
 
@@ -105,19 +105,19 @@
 
 ![minecraft](https://learn.adafruit.com/system/guides/images/000/000/389/medium310/minecraft2.jpg?1396718054)
 
-# Instrumentos de tortura
+## Instrumentos de tortura
 
-* [Tortura a tu gato](https://learn.adafruit.com/raspberry-pi-wifi-controlled-cat-laser-toy?view=all)
+* [Juguete para tu gato](https://learn.adafruit.com/raspberry-pi-wifi-controlled-cat-laser-toy?view=all)
 
-![tortura](https://learn.adafruit.com/system/guides/images/000/000/368/medium310/carmen.jpg?1396718352)
+![Laser para jugar con gatos](https://learn.adafruit.com/system/guides/images/000/000/368/medium310/carmen.jpg?1396718352)
 
-* [Cuadro diabókico](https://learn.adafruit.com/creepy-face-tracking-portrait?view=all)
+* [Cuadro diabólico](https://learn.adafruit.com/creepy-face-tracking-portrait?view=all)
 
-![cuadro](https://learn.adafruit.com/system/assets/assets/000/011/659/medium800/raspberry_pi_DSC00316.jpg?1381799690)
+![cuadro diabólico](https://learn.adafruit.com/system/assets/assets/000/011/659/medium800/raspberry_pi_DSC00316.jpg?1381799690)
 
-# Arte
+## Arte
 
-*[Ligth Painting](https://learn.adafruit.com/light-painting-with-raspberry-pi)
+* [Ligth Painting](https://learn.adafruit.com/light-painting-with-raspberry-pi)
 
 ![ligth painting](https://learn.adafruit.com/system/guides/images/000/000/086/medium310/fire.jpg?1396721000)
 
@@ -129,7 +129,7 @@
 
 ![cortina](https://learn.adafruit.com/system/assets/assets/000/018/739/medium800/leds_curtain-anim.gif?1447866960)
 
-# Portables
+## Portables
 
 * [Raspberry Pi Gameboy](https://learn.adafruit.com/pigrrl-raspberry-pi-gameboy?view=all)
 
@@ -139,7 +139,7 @@
 
 ![super](https://learn.adafruit.com/system/assets/assets/000/022/249/medium800/gaming_hero-hands1.jpg?1420582925)
 
-# Teléfono
+## Teléfono
 
 * [RaspiPhone](https://learn.adafruit.com/piphone-a-raspberry-pi-based-cellphone?view=all)
 

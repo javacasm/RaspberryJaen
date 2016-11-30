@@ -16,10 +16,17 @@ Es un lenguage moderno de gran productividad, sencillo, potente y con millones d
 
 Se utiliza en la web, en aplicaciones de escritorio, etc... Gran parte del interface de linux lo utiliza
 
+Existen dos versiones de python ahora mismo: la rama 2.x y la 3.x
+Por sencillez vamos a usar la sintaxis de la rama 2.x
 
 Podemos utilizar la herramienta Idle o python directamente para programar con él.
 
 ![Herramienta idle](./images/idle.png)
+
+Es más sencillo si escribimos nuestro código en un fichero (con cualquier editor de texto) y luego lo ejecutamos o bien abriéndolo con idle o haciendo:
+
+    python fichero.py
+
 
 Veamos algunos ejemplos
 
@@ -34,6 +41,8 @@ Veamos algunos ejemplos
 [Código de Bisiesto](./codigo/bisiesto.py)
 
 ![¿es bisiesto el año?](./images/bisiesto.png)
+
+[Código de días por mes](./codigo/diasMes.py)
 
 ![Días del mes](./images/diasMes.png)
 

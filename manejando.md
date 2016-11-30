@@ -56,15 +56,16 @@ Nos da todo el poder del usuario administrador (**root**)
 
 ## Interface gráfico
 
-Para arrancar el interface gráfico (si no está arrancado)
+Para arrancar el interface gráfico (si no está arrancado) usaremos
+
+		startx
+
 
 ![startx](./images/raspX.png)
 
 ## Acceso remoto
 
 ## [Conexión directa](./conexionDirecta.md)
-
-## [Control con voz](./controlVoz.md)
 
 ### ssh
 
@@ -85,13 +86,18 @@ Ahora podremos conectarnos remotamente con ssh
 
 	ssh pi@192.189.0.123
 
-O
-bien usando algún software como [Putty](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html)
+O bien usando algún software como [Putty](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html)
+
+Conviene cambiar la contraseña para evitar que cualquiera pueda acceder
 
 
 ### vnc
 
-VNC es un protocolo que nos permite acceder remotamente al escritorio de otra máquina. Podemos instalarlo en nuestra Raspberry de manera sencilla con
+VNC es un protocolo que nos permite acceder remotamente al escritorio de otra máquina.
+
+En las nuevas versiones de Raspbian podemos activar VNC desde la configuración (raspi-config).
+
+Si no está disponible podemos instalarlo en nuestra Raspberry de manera sencilla con:
 
 	sudo apt-get install tightvncserver
 
@@ -101,3 +107,5 @@ Este software requiere que un servicio se ejecute al arrancar si queremos accede
 	su -c "/usr/bin/tightvncserver :1 -geometry 800x600 -depth 16" pi
 
 ![vnc](./images/vnc.png)
+
+Ahora accederemos usando un cliente vnc

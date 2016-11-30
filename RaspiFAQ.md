@@ -9,7 +9,9 @@
 
 ### [https://github.com/javacasm/RaspberryJaen](https://github.com/javacasm/RaspberryJaen)
 
-# General
+# RaspiFAQ
+
+## General
 
 * ¿Es openSource?
 
@@ -77,7 +79,7 @@
 		Model B Revision 1.0 + ECN0001 (no fuses, D14 removed)	0003
 		Model B Revision 2.0			0004, 0005, 0006
 
-# Cacharreo (cables)
+## Cacharreo (cables)
 
 * ¿Puedo encender y apagar un led?
 
@@ -91,11 +93,11 @@
 
 	Una placa controladora, y motores ...
 
-# Compras
+## Compras
 
 * ¿Dónde puedo comprar en Granada?
 
-# Administrando (¡es linux!)
+## Administrando (¡es linux!)
 
 * ¿Cuál es el usuario por defecto?
 

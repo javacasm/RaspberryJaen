@@ -9,7 +9,7 @@
 
 ### [https://github.com/javacasm/RaspberryJaen](https://github.com/javacasm/RaspberryJaen)
 
-# python
+# Python
 
 
 Es un lenguage moderno de gran productividad, sencillo, potente y con millones de líneas ya desarrolladas que se pueden usar directamente por medio de paquetes instalables
@@ -30,35 +30,89 @@ Es más sencillo si escribimos nuestro código en un fichero (con cualquier edit
 
 Veamos algunos ejemplos
 
-* Operaciones numéricas y petición de datos al usuario
+## Operaciones numéricas y petición de datos al usuario
 
 [Código de Suma](./codigo/suma.py)
 
-![Suma](./images/suma.png)
+```python
+# Programa que realiza la suma de dos valores
+a=input('numero 1');
+b=input('numero 2');
+suma = a + b;
+print (suma);
+```
 
-* Sentencias de control condicionales
+**Ejercicio**: cambia la operación a realizar
+
+### Sentencias de control condicionales
 
 [Código de Bisiesto](./codigo/bisiesto.py)
 
-![¿es bisiesto el año?](./images/bisiesto.png)
+```python
+# Programa que determina si un año es o no bisiesto
+year = input('Introduzca el anio: ');
+if ((year%400)==0  or (year % 100) ==0 or (year%4)==0):
+  print 'Es bisiesto!!';
+else:
+  print 'No es bisiesto!!';
+```
 
 [Código de días por mes](./codigo/diasMes.py)
 
-![Días del mes](./images/diasMes.png)
+```python
+# Nos da los dias que tiene el mes seleccionado
+mes = input('Introduce el mes:');
+year = input('Introuce el anio:');
+# Comprobamos si es entero
+if type(mes) == int:
+  # Comprobamos si esta entre 1 y 12
+  if (mes>=1) and (mes<=12):
+    if mes == 2:
+      if(year%400 == 0) or (year%100 ==0) or (year %4 == 0):
+        dias = 29;
+      else:
+        dias =28;
+    elif (mes==4) or (mes==6) or (mes==9) or (mes==11):
+      dias = 30;
+    else:
+      dias = 31;
+    print 'El mes '+str(mes) +' del anio '+str(year)+' tiene '+str(dias)+ ' dias';
+  else:
+    print 'El mes debe ser entre 1 y 12';
+else:
+  print 'El mes debe ser entero';
+```
 
-* Sentencias de control de repetición
+### Sentencias de control de repetición
 
 [Código de Buscando Caracteres](./codigo/buscaCaracter.py)
 
-![Buscando caracteres](./images/buscaCaracter.png)
+```python
+# Cuenta las veces que se repite un caracter en una palabra
+word= 'palabra';
+caracter = 'a';
+contador=0;
+mensaje='No se ha encontrado el caracter :('
+for i in range(len(word)):
+  if (word[i]==caracter):
+    mensaje='se ha encontrado el caracter!!!';
+    contador=contador+1;
 
-* Diccionarios que nos permitirán relacionar contenidos
+print mensaje;
+print 'Se encontrado '+str(contador)+' veces';
+```
+
+**Ejercicio**: haz que el usuario pueda introducir la cadena donde buscar y el caracter
+
+### Diccionarios que nos permitirán relacionar contenidos
 
 Podemos introducir estas líneas en idle (las que empiezan por >>>)
 
 
 ![Usando Diccionarios](./images/diccionarios.png)
 
-* Veamos una implementación de un programa más elaborado como "Piedra, Papel o Tijera"
+### Programa complejo
+
+Veamos una implementación de un programa más elaborado como "Piedra, Papel o Tijera"
 
 ![Ejemplo de piedra, papel o tijera](./images/PPT.png)

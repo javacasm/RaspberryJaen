@@ -11,6 +11,9 @@
 
 # Arquitectura
 
-![bloques](./images/bloques.png)
+Un diagrama simplificado de la arquitectura de Raspberry Pi
 
-![estructura](./images/estructura.png)
+![Arquitectura de la Raspberry Pi](./images/bloques.png)
+
+
+![Bloques de la Raspberry Pi](./images/estructura.png)

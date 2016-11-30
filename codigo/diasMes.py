@@ -1,3 +1,4 @@
+# Nos da los días que tiene el mes seleccionado
 mes = input('Introduce el mes:');
 year = input('Introuce el anio');
 # Comprobamos si es entero

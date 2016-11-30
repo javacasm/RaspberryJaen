@@ -13,7 +13,7 @@
 
 Vamos a configurar nuestra raspberry y un portátil con Ubuntu para facilitar al máximo la conexión y así no tener que utilizar muchos componentes. De esta manera podremos trastear con un kit mínimo, evitando tener que usar un teclado, ratón y sobre todo un monitor.
 
-![4](http://blog.elcacharreo.com/wp-content/uploads/2013/05/20130501_003523-150x150.jpg)
+![Conexión directa entre Raspberry y Portatil](http://blog.elcacharreo.com/wp-content/uploads/2013/05/20130501_003523-150x150.jpg)
 
 En concreto usaremos símplemente un cable de red (ethernet) y un cable micro-usb para alimentar la raspberry.
 
@@ -29,7 +29,7 @@ Comencemos editando la configuración del pc, para lo que ejecutaremos en el pc:
 
 y dejamos el contenido del fichero (la red que se usa normalmente es las 192.168.1.x de ahí que el gateway sea 192.168.1.1 que es el real)
 
-![3](http://blog.elcacharreo.com/wp-content/uploads/2013/05/paso1.png)
+![Configuración inicial de la red local](http://blog.elcacharreo.com/wp-content/uploads/2013/05/paso1.png)
 
 Ahora vamos a editar la configuración de la raspberry. La forma más sencilla es editando los ficheros de configuración desde el pc, para lo que insertamos la tarjeta sd de la raspberry (obviamente con esta apagada) en el pc y ejecutamos en este:
 
@@ -37,7 +37,7 @@ Ahora vamos a editar la configuración de la raspberry. La forma más sencilla e
 
 Quedando el mismo:
 
-![2](http://blog.elcacharreo.com/wp-content/uploads/2013/05/paso2.png)
+![Configuración final de la red local](http://blog.elcacharreo.com/wp-content/uploads/2013/05/paso2.png)
 
 Ahora, colocamos la tarjeta sd en la raspberry y volvemos a encenderla
 
@@ -54,7 +54,7 @@ Ahora vamos a hacer que el portátil actúe como router. Para ello ejecutamos lo
 
 	sudo su -
 	root@ubuntu-asus:~# echo 1 > /proc/sys/net/ipv4/ip_forward
-	root@ubuntu-asus:~# /sbin/iptables -t nat -A POSTROUTING -o wlan0 -j MASQUERADEç
+	root@ubuntu-asus:~# /sbin/iptables -t nat -A POSTROUTING -o wlan0 -j MASQUERADE
 
 Por último editamos el fichero de configuración de DNS con
 
@@ -62,7 +62,7 @@ Por último editamos el fichero de configuración de DNS con
 
 y lo dejamos así
 
-![1](http://blog.elcacharreo.com/wp-content/uploads/2013/05/paso3.png)
+![Configuración de servidor de nombres](http://blog.elcacharreo.com/wp-content/uploads/2013/05/paso3.png)
 
 
 Ahora solo falta probar que tenemos conectividad, haciendo un ping

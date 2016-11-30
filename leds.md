@@ -11,7 +11,7 @@
 
 # GPIO
 
-![1](./images/GPIORasp.png)
+![GPIO](./images/GPIORasp.png)
 
 * Son los pines que podemos usar como salidas o como entradas, pero siempre de tipo digital.
 * Utilizan **3.3V**
@@ -30,15 +30,15 @@
 
 Hay que tener cuidado con no equivocarse. Podemos usar una etiqueta
 
-![1](./images/etiquetas.png)
+![Etiquetas para los pines](./images/etiquetas.png)
 
 Las distinas versiones tienen algunos pines distintos
 
-![1](./images/GPIOV2.png)
+![GPIO para la versión 2](./images/GPIOV2.png)
 
 Las versiones de 40 pines
 
-![40](./images/RP2_Pinout.png)
+![GPIO de 40 pines](./images/RP2_Pinout.png)
 
 ## Librerías
 
@@ -51,112 +51,112 @@ Hay 4 librerías GPIO
 
 Veamos como llaman a los distintos pines
 
-![1](./images/NombresGPIO.png)
+![Nombre de los GPIOs](./images/NombresGPIO.png)
 
 ## Wiring
 
 Para instalarlo tenemos que tener instalado parte del entorno de desarrollo de python
 
-	sudo apt-get install python-dev python-setuptools git-core
+		sudo apt-get install python-dev python-setuptools git-core
 
 Descargamos el código (también podíamos haber descargado el fichero zip)
 
-	git clone git://git.drogon.net/wiringPi
+		git clone git://git.drogon.net/wiringPi
 
 La compilamos
 
-	./build
+		./build
 
 Y ya podemos udarla
 
-	gpio readall
+		gpio readall
 
 
-![readall](./images/readall.png)
+![Leer el estado de todos los pines](./images/readall.png)
 
 ## Conectando un led
 
 Este es el esquema para conectar un led
 
-![led](./images/led.png)
+![LED](./images/led.png)
 
 El montaje sería
 
-![esquema](./images/esquemaled.png)
+![Esquema de conexión de un led](./images/esquemaled.png)
 
 Hagamos un programa que parpadea el led conectado
 
-	import time
-	# Importamos la librería wiringpi
-	import wiringpi2
-	#Configuramos la numeración de los pines con respecto al
-	#estandar de la librería wiringpi (pin de entrada salida
-	#	GPIO0)
+		import time
+		# Importamos la librería wiringpi
+		import wiringpi2
+		#Configuramos la numeración de los pines con respecto al
+		#estandar de la librería wiringpi (pin de entrada salida
+		#	GPIO0)
 
-	io = wiringpi2.GPIO(wiringpi2.GPIO.WPI_MODE_PINS)
+		io = wiringpi2.GPIO(wiringpi2.GPIO.WPI_MODE_PINS)
 
-	#Configuramos el pin 0 como salida
-	io.pinMode(0,io.OUTPUT)
+		#Configuramos el pin 0 como salida
+		io.pinMode(0,io.OUTPUT)
 
-	# Ciclo for que ejecutamos 3 veces
-	for x in range (0,3):
-		io.digitalWrite(0,io.HIGH) #encendemos el led
-		time.sleep(0.5) # esperamos medio segundo
-		io.digitalWrite(0,io.LOW) # apagamos el led
-		time.sleep(0.5) # esperamos medio segundo
+		# Ciclo for que ejecutamos 3 veces
+		for x in range (0,3):
+			io.digitalWrite(0,io.HIGH) #encendemos el led
+			time.sleep(0.5) # esperamos medio segundo
+			io.digitalWrite(0,io.LOW) # apagamos el led
+			time.sleep(0.5) # esperamos medio segundo
 
 Para ejecutar estos programas necesitamos permiso de administrador
 
-	sudo python blink.py
+		sudo python blink.py
 
 # Conectado un pulsador
 
-![pulsador](./images/pulsador.png)
+![Conectando un pulsador](./images/pulsador.png)
 
 Usando el código
 
-![codigo](./images/codigopulsador.png)
+![Código para usar un pulsador](./images/codigopulsador.png)
 
 ## Usando GPIO
 
 Instalamos la librería
 
-	sudo apt-get install python-dev python-rpi.gpio
+		sudo apt-get install python-dev python-rpi.gpio
 
 El programa que los usa
 
-	import RPi.GPIO as GPIO
-	# Usamos la numeración de los GPIO no el numero de los pines
-	GPIO.setmode(GPIO.BCM)
-	GPIO.setup(7, GPIO.IN) # establecemos el GPIO 7 como entrada
-	GPIO.setup(8, GPIO.OUT) # establecemos el GPIO 8 como salida
-	input_value = GPIO.input(7) # recuperamos el valor de entreda
-	GPIO.output(8, True) # establecemos la salida en alto
+		import RPi.GPIO as GPIO
+		# Usamos la numeración de los GPIO no el numero de los pines
+		GPIO.setmode(GPIO.BCM)
+		GPIO.setup(7, GPIO.IN) # establecemos el GPIO 7 como entrada
+		GPIO.setup(8, GPIO.OUT) # establecemos el GPIO 8 como salida
+		input_value = GPIO.input(7) # recuperamos el valor de entreda
+		GPIO.output(8, True) # establecemos la salida en alto
 
 O este ejemplo más complejo
 
-	import RPi.GPIO as GPIO
-	import time
-	# Usamos la posición en el conector
-	GPIO.setmode(GPIO.BOARD)
-	# pin 11 (GPIO17) como output
-	GPIO.setup(11, GPIO.OUT)
-	var=1
-	print "Empezamos el bucle infinito"
-	while var==1 :
-		print "Output False"
-		GPIO.output(11, False)
-		time.sleep(1) # esperamos un tiempo
-		print "Output True"
-		GPIO.output(11, True)
-		time.sleep(1)
+		import RPi.GPIO as GPIO
+		import time
+		# Usamos la posición en el conector
+		GPIO.setmode(GPIO.BOARD)
+		# pin 11 (GPIO17) como output
+		GPIO.setup(11, GPIO.OUT)
+		var=1
+		print "Empezamos el bucle infinito"
+		while var==1 :
+			print "Output False"
+			GPIO.output(11, False)
+			time.sleep(1) # esperamos un tiempo
+			print "Output True"
+			GPIO.output(11, True)
+			time.sleep(1)
 
 
 ## Usando más potencia
 
 En el caso bastante normal de que necesitemos más potencia de las que nos da un pin (16mA) Podemos utilizar un transistor. Veamos el montaje
 
-![transistor](./images/transistor.png)
+![Conexión con transistor](./images/transistor.png)
 
 
 A la salida de este transistor podemos conectar un relé para obtener aún más potencia
@@ -165,9 +165,7 @@ A la salida de este transistor podemos conectar un relé para obtener aún más 
 
 Para leer valores analógicos usaremos electrónica externa, com pueden se [esta placa](http://www.abelectronics.co.uk/products/3/Raspberry-Pi/17/) o [esta otra](http://www.adafruit.com/products/1085), ambas de 16 bits. El [montaje es sencillo](http://learn.adafruit.com/reading-a-analog-in-and-controlling-audio-volume-with-the-raspberry-pi)
 
-![adc](./images/adc.png)
-
-
+![ADC](./images/adc.png)
 
 ## Usos de los GPIOs
 
@@ -193,7 +191,7 @@ Raspberry.
 * En caso de querer conectar con lógica de 5v tendremos que usar una electrónica para adaptar niveles.
 * Existen dispositivos convertidores de niveles (level shifters) con diferentes tecnologías. Los más antiguos están formados por unas resistencias y unos transistores.
 
-![shifper](./images/shifter.png)
+![Conversores de niveles (shifter)](./images/shifter.png)
 
 Para identificar más fácilmente los pines podemos usar una etiqueta
 
@@ -211,7 +209,7 @@ Para identificar más fácilmente los pines podemos usar una etiqueta
 * En cualquier caso ganamos en tranquilidad al usarlas.
 
 
-![clobber](./images/clobber.jpg)
+![Clobber](./images/clobber.jpg)
 
 Son simples adaptadores que nos facilitan la vida permitiendo conectar de manera sencilla
 con las placas de prototipo
@@ -248,7 +246,7 @@ Es una placa de desarrollo con una enorme cantidad de complementos, como son con
 
 ### RaspiRobot
 
-![raspirobot](./images/raspirobot.png)
+![Raspirobot](./images/raspirobot.png)
 
 * El manejo de motores es mucho más complejo que el manejo de leds.
 * La programación es exactamente la misma,
@@ -279,17 +277,17 @@ y la instalamos
 
 Un programa podría ser
 
-	from raspirobotboard import *
-	rr = RaspiRobot() # creamos el objeto
-	rr.set_led1(1) # activamos el led 1
-	rr.set_led2(0) # desactivamos el led 2
-	rr.set_oc1(1) # activamos la salida 1
-	rr.forward() # movemos los dos motores hacia adelante
-	rr.reverse() # movemos los dos motores hacia atrás
-	rr.left() # motor izquierdo hacia adelante, derecho hacia atrás
-	rr.right() # motor izquierdo hacia atrás, derecho hacia adelante
-	rr.stop() # los dos motores hacia atrás
-	rr.sw1_closed() # devuelver True o False según cerrado o abierto
+		from raspirobotboard import *
+		rr = RaspiRobot() # creamos el objeto
+		rr.set_led1(1) # activamos el led 1
+		rr.set_led2(0) # desactivamos el led 2
+		rr.set_oc1(1) # activamos la salida 1
+		rr.forward() # movemos los dos motores hacia adelante
+		rr.reverse() # movemos los dos motores hacia atrás
+		rr.left() # motor izquierdo hacia adelante, derecho hacia atrás
+		rr.right() # motor izquierdo hacia atrás, derecho hacia adelante
+		rr.stop() # los dos motores hacia atrás
+		rr.sw1_closed() # devuelver True o False según cerrado o abierto
 
 
 ### Steppers: motores paso a paso
@@ -310,34 +308,34 @@ Veamos como conectarla
 
 Vamos a ver ahora la programación.
 
-	import timeimport RPi.GPIO as GPIO
-	GPIO.setmode(GPIO.BCM)
-	StepPins = [24,25,8,7] # Pines que conectamos a la placa de control
-	for pin in StepPins: # configuramos todos los pines como salida
-		GPIO.setup(pin,GPIO.OUT)
-		GPIO.output(pin, False)
-		StepCounter = 0
-		WaitTime = 0.5
-		StepCount1 = 4
-		Seq1 = []
-		Seq1 = range(0, StepCount1) # Definimos la secuencia de giro
-		Seq1[0] = [1,0,0,0]
-		Seq1[1] = [0,1,0,0]
-		Seq1[2] = [0,0,1,0]
-		Seq1[3] = [0,0,0,1]
-		while 1==1: # realizamos un bucle infinito enviando la secuencia
-			for pin in range(0, 4): #iteramos sobre los pasos de la secuencia
-				xpin = StepPins[pin]
-				if Seq[StepCounter][pin]!=0:
-					GPIO.output(xpin, True)
-				else:
-					GPIO.output(xpin, False)
-				StepCounter += 1
-				time.sleep(WaitTime)
+		import timeimport RPi.GPIO as GPIO
+		GPIO.setmode(GPIO.BCM)
+		StepPins = [24,25,8,7] # Pines que conectamos a la placa de control
+		for pin in StepPins: # configuramos todos los pines como salida
+			GPIO.setup(pin,GPIO.OUT)
+			GPIO.output(pin, False)
+			StepCounter = 0
+			WaitTime = 0.5
+			StepCount1 = 4
+			Seq1 = []
+			Seq1 = range(0, StepCount1) # Definimos la secuencia de giro
+			Seq1[0] = [1,0,0,0]
+			Seq1[1] = [0,1,0,0]
+			Seq1[2] = [0,0,1,0]
+			Seq1[3] = [0,0,0,1]
+			while 1==1: # realizamos un bucle infinito enviando la secuencia
+				for pin in range(0, 4): #iteramos sobre los pasos de la secuencia
+					xpin = StepPins[pin]
+					if Seq[StepCounter][pin]!=0:
+						GPIO.output(xpin, True)
+					else:
+						GPIO.output(xpin, False)
+					StepCounter += 1
+					time.sleep(WaitTime)
 
 Veamos un ejemplo de su precisión
 
-![polarplot](./images/polarplot.png)		
+![Robot polarplot](./images/polarplot.png)		
 
 ## Servos
 
@@ -345,22 +343,22 @@ Los servos son motores pensados para mantener una posición concreta, disponen d
 
 El ancho de este pulso determina la posición a mantener, como podemos ver en la imagen adjunta.
 
-![servocontrol](./images/servocontrol.png)
+![Control de servos](./images/servocontrol.png)
 
 La estabilidad de la posición depende de la precisión con la enviemos la señal de control.
 
 Veamos un método para generar esta señal con python. Está pensada para controlar 2 servos:
 
-	def mover_servo(grados,servo):
-		if servo==1: GPIO_servo=22
-		elif servo==2: GPIO_servo=21
-		# creamos el pulso
-		pos_servo=(0.0000122*grados)+0.0002
-		GPIO.output(GPIO_servo, True) #activamos la salida
-		time.sleep(pos_servo) # esperamos la duración del pulso
-		GPIO.output(GPIO_servo, False) # desativamos la señal porque el pulso ha terminado
-		#esperamos el tiempo necesario hasta enviar el siguiente pulso
-		time.sleep(0.0025-pos_servo)
+		def mover_servo(grados,servo):
+			if servo==1: GPIO_servo=22
+			elif servo==2: GPIO_servo=21
+			# creamos el pulso
+			pos_servo=(0.0000122*grados)+0.0002
+			GPIO.output(GPIO_servo, True) #activamos la salida
+			time.sleep(pos_servo) # esperamos la duración del pulso
+			GPIO.output(GPIO_servo, False) # desativamos la señal porque el pulso ha terminado
+			#esperamos el tiempo necesario hasta enviar el siguiente pulso
+			time.sleep(0.0025-pos_servo)
 
 
 Si lo probamos veremos que el servo vibra debido a la mala calidad de la señal por su falta de estabilidad. Python es un lenguaje interpretado y temporización que hemos hecho dependerá de la carga que tenga nuestra Raspberry
@@ -372,16 +370,16 @@ Podemos mejorar la calidad de la señal utilizando un programa escrito en C que 
 
 Vamos a utilizar un par de servos para hacer que una cámara [siga una cara](http://www.instructables.com/id/Pan-Tilt-face-tracking-with-the-raspberry-pi/?ALLSTEPS)
 
-![opencvCamara](./images/opencvCamara.png)
+![Opencv + Camara](./images/opencvCamara.png)
 
 Estos son los pasos para instalar todo lo necesario
 
-	sudo apt-get update
-	sudo apt-get install git python-opencv python-all-dev libopencv-dev
-	sudo modprobe servoblaster
-	git clone https://github.com/mitchtech/py_servo_facetracker
+		sudo apt-get update
+		sudo apt-get install git python-opencv python-all-dev libopencv-dev
+		sudo modprobe servoblaster
+		git clone https://github.com/mitchtech/py_servo_facetracker
 
 Y para ejecutarlo
 
-	cd py_servo_facetracker
-	python ./facetracker_servo_gpio.py 0
+		cd py_servo_facetracker
+		python ./facetracker_servo_gpio.py 0

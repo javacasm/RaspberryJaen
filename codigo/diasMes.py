@@ -1,9 +1,9 @@
-# Nos da los días que tiene el mes seleccionado
+# Nos da los dias que tiene el mes seleccionado
 mes = input('Introduce el mes:');
-year = input('Introuce el anio');
+year = input('Introuce el anio:');
 # Comprobamos si es entero
 if type(mes) == int:
-  # Comprobamos si está entre 1 y 12
+  # Comprobamos si esta entre 1 y 12
   if (mes>=1) and (mes<=12):
     if mes == 2:
       if(year%400 == 0) or (year%100 ==0) or (year %4 == 0):
@@ -14,7 +14,8 @@ if type(mes) == int:
       dias = 30;
     else:
       dias = 31;
+    print 'El mes '+str(mes) +' del anio '+str(year)+' tiene '+str(dias)+ ' dias';
   else:
     print 'El mes debe ser entre 1 y 12';
 else:
-  print 'El número del mes debe ser entero';
+  print 'El mes debe ser entero';

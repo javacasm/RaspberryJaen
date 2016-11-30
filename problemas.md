@@ -11,19 +11,20 @@
 
 # Problemas
 
+Siempre podemos encontrarnos con problemas. Veamos los más frecuentes
 
 ## Alimentación
 
-mínimo 1A
+Necesitamos un mínimo de 2A
 
 ## Velocidad de la tarjeta
 
-Se recomienda velocidad 10
+Se recomienda velocidad 10, una velocidad menor da problemas a bloqueos
 
 ## Espacio en disco
 
-Al menos 2Gb, mejor 4Gb
+Al menos 2Gb por sistema operativo, mejor 4Gb
 
 ## No se ve nada en el monitor
 
-¿Lo arrancaste con el monitor conectado?
+¿Lo arrancaste con el monitor conectado? Es necesario arrancar con el monitor conectado

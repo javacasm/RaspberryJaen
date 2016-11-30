@@ -17,30 +17,30 @@ Es un lenguage moderno de gran productividad, sencillo, potente y con millones d
 Se utiliza en la web, en aplicaciones de escritorio, etc... Gran parte del interface de linux lo utiliza
 
 
-Podemos utilizar la herramiente Idle o python directamente para programar con él.
+Podemos utilizar la herramienta Idle o python directamente para programar con él.
 
-![idle](./images/idle.png)
+![Herramienta idle](./images/idle.png)
 
 Veamos algunos ejemplos
 
 * Operaciones numéricas y petición de datos al usuario
 
-![suma](./images/suma.png)
+![Suma](./images/suma.png)
 
 * Sentencias de control condicionales
 
-![bisiesto](./images/bisiesto.png)
+![¿es bisiesto el año?](./images/bisiesto.png)
 
-![diasMes](./images/diasMes.png)
+![Días del mes](./images/diasMes.png)
 
 * Sentencias de control de repetición
 
-![busca](./images/buscaCaracter.png)
+![Buscando caracteres](./images/buscaCaracter.png)
 
 * Diccionarios que nos permitirán relacionar contenidos
 
-![dict](./images/diccionarios.png)
+![Usando Diccionarios](./images/diccionarios.png)
 
 * Veamos una implementación de un programa más elaborado como "Piedra, Papel o Tijera"
 
-![PPT](./images/PPT.png)
+![Ejemplo de piedra, papel o tijera](./images/PPT.png)

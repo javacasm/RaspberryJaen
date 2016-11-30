@@ -54,6 +54,9 @@ Veamos algunos ejemplos
 
 * Diccionarios que nos permitirán relacionar contenidos
 
+Podemos introducir estas líneas en idle (las que empiezan por >>>)
+
+
 ![Usando Diccionarios](./images/diccionarios.png)
 
 * Veamos una implementación de un programa más elaborado como "Piedra, Papel o Tijera"

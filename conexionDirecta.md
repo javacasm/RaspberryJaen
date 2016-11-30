@@ -69,5 +69,4 @@ Ahora solo falta probar que tenemos conectividad, haciendo un ping
 
 	ping 192.168.0.90
 
-
-Si todo es correcto ya podremos acceder
+Si todo es correcto ya podremos acceder via ssh o  VNC

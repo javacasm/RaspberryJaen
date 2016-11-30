@@ -25,15 +25,21 @@ Veamos algunos ejemplos
 
 * Operaciones numéricas y petición de datos al usuario
 
+[Código de Suma](./codigo/suma.py)
+
 ![Suma](./images/suma.png)
 
 * Sentencias de control condicionales
+
+[Código de Bisiesto](./codigo/bisiesto.py)
 
 ![¿es bisiesto el año?](./images/bisiesto.png)
 
 ![Días del mes](./images/diasMes.png)
 
 * Sentencias de control de repetición
+
+[Código de Buscando Caracteres](./codigo/buscaCaracter.py)
 
 ![Buscando caracteres](./images/buscaCaracter.png)
 

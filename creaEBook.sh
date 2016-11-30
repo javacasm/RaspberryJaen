@@ -70,7 +70,7 @@ cat $TEMP_DownloadImagesFile |  rev |  cut -d / -f 1 | rev >$TEMP_DownloadImages
 
 # Generamos el ebook
 
-pandoc -o $TEMP_DIR/Raspberry.epub $TEMP_file
+pandoc --toc -o $TEMP_DIR/Raspberry.epub $TEMP_file
 
 mv $TEMP_DIR/Raspberry.epub .
 

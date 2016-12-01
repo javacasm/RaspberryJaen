@@ -7,10 +7,13 @@ TEMP_ImagesFile=$TEMP_DIR"/imagesURLS.txt"
 TEMP_DirImages=$TEMP_DIR"/images/"
 TEMP_DownloadImagesNames=$TEMP_DIR"/images.txt"
 
+EBOOK_NAME=$TEMP_DIR"/Raspberry.pdf"
+
 rm -rf $TEMP_DIR
 mkdir $TEMP_DIR
 
-files=( historia.md \
+files=( introduccion.md \
+    historia.md \
     clones.md \
     proyectos.md \
     raspiMedios.md \
@@ -70,9 +73,9 @@ cat $TEMP_DownloadImagesFile |  rev |  cut -d / -f 1 | rev >$TEMP_DownloadImages
 
 # Generamos el ebook
 
-pandoc --toc -o $TEMP_DIR/Raspberry.epub $TEMP_file
+pandoc --toc --toc-depth=1 --verbose -o $EBOOK_NAME $TEMP_file
 
-mv $TEMP_DIR/Raspberry.epub .
+mv $EBOOK_NAME .
 
 
 # rm -rf $TEMP_DIR # comentado para comprobar

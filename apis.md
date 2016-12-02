@@ -45,7 +45,7 @@ y tendremos accesibles los siguientes comandos:
 		[pinoff|poff|off|low] [pin] : apaga GPIO pin
 		[write|w] [pin] [state] : escribe el estado en GPIO pin
 		[read|r] [pin]: lee el estado de GPIO pin
-		[shell|bash] [arg1] :ejecuta el comando que sigue a „shell‟ o „bash‟
+		[shell|bash] [arg1] :ejecuta el comando que sigue a "shell" o "bash"
 
 ## Reconocimiento de voz
 

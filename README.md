@@ -15,6 +15,8 @@
 
 ## [¿Qué necesito?](./materiales.md)
 
+
+
 [](#raspberry-pi)Raspberry pi: introducción al uso y programación
 ================================================================
 
@@ -39,3 +41,6 @@ diferentes fines.
 - Lenguaje de programación y entorno de desarrollo integrado
 - Utilización de librerías externas para programación
 - Conexión con equipos electrónicos y Arduino
+
+Documentación en [pdf](./Raspberry.pdf) [epub](./Raspberry.epub)
+(es una primera versión y hay algunos fallos en el fichero)

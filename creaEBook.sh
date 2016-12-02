@@ -7,12 +7,13 @@ TEMP_ImagesFile=$TEMP_DIR"/imagesURLS.txt"
 TEMP_DirImages=$TEMP_DIR"/images/"
 TEMP_DownloadImagesNames=$TEMP_DIR"/images.txt"
 
-EBOOK_NAME=$TEMP_DIR"/Raspberry.pdf"
+EBOOK_NAME=$TEMP_DIR"/Raspberry"
 
 rm -rf $TEMP_DIR
 mkdir $TEMP_DIR
 
 files=( introduccion.md \
+    indice.md \
     historia.md \
     clones.md \
     proyectos.md \
@@ -73,9 +74,11 @@ cat $TEMP_DownloadImagesFile |  rev |  cut -d / -f 1 | rev >$TEMP_DownloadImages
 
 # Generamos el ebook
 
-pandoc --toc --toc-depth=1 --verbose -o $EBOOK_NAME $TEMP_file
+# pandoc --toc --toc-depth=1 --verbose -o $EBOOK_NAME $TEMP_file
 
-mv $EBOOK_NAME .
+pandoc --verbose -o $EBOOK_NAME".epub" $TEMP_file
+pandoc --verbose -o $EBOOK_NAME".pdf" $TEMP_file
+mv $EBOOK_NAME* .
 
 
 # rm -rf $TEMP_DIR # comentado para comprobar

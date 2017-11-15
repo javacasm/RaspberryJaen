@@ -2,7 +2,7 @@
 
 ## CEP de Jaen
 
-23, 29 y 30 de Noviembre de 2016
+16, 23 y 28 de Noviembre de 2017
 
 ![CC](./images/Licencia_CC.png)
 ## José Antonio Vacas  @javacasm

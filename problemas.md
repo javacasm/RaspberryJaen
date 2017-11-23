@@ -23,7 +23,7 @@ Se recomienda velocidad 10, una velocidad menor da problemas a bloqueos
 
 ## Espacio en disco
 
-Al menos 2Gb por sistema operativo, mejor 4Gb
+Al menos 8Gb por sistema operativo, mejor 16Gb
 
 ## No se ve nada en el monitor
 

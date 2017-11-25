@@ -26,7 +26,7 @@
 	1. [Instalación](./instalacion.md)
 	1. [Problemas](./problemas.md)
 	1. [Mantenimiento](./mantenimiento.md)
-	1. [Manejándola](./manejando.md)
+	1. [Manejándola](./manejando.md) [Estructura de direstorios](./EstructuraDirectorios.md)
 	1. [Usos](./usos.md)
 	1. [Simuladores](./simuladores.md)
 	1. [Uso en exteriores](./Exteriores.md)

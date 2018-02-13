@@ -56,6 +56,7 @@ Ahora vamos a hacer que el portátil actúe como router. Para ello ejecutamos lo
 	root@ubuntu-asus:~# echo 1 > /proc/sys/net/ipv4/ip_forward
 	root@ubuntu-asus:~# /sbin/iptables -t nat -A POSTROUTING -o wlan0 -j MASQUERADE
 
+
 Por último editamos el fichero de configuración de DNS con
 
 	sudo vi /etc/resolv.conf

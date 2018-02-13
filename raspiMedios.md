@@ -27,3 +27,7 @@ Han sido muchas las películas y series donde han aparecido últimamente Raspber
 
 
 * CSI: Bridge para capturar datos
+
+## Recursos
+
+[Recopilación](https://www.raspberrypi-spy.co.uk/2018/02/raspberry-pi-tv-and-film-appearances)

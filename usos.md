@@ -20,9 +20,10 @@
 
 ## Laboratorio
 
-* Generador de onda
+* Generador de onda:
 [DAC](https://learn.adafruit.com/mcp4725-12-bit-dac-with-raspberry-pi)
-![dac](https://learn.adafruit.com/system/guides/images/000/000/092/medium310/DAC_Scope.png?1396720955)
+
+![dac](https://learn.adafruit.com/system/guides/images/000/000/092/medium310/DAC_Scope.png)
 
 * [Analizador de precuencias](https://learn.adafruit.com/freq-show-raspberry-pi-rtl-sdr-scanner)
 
